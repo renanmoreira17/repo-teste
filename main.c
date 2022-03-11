@@ -1,5 +1,7 @@
 #include "stdio.h"
 
+#include <math.h>
+
 int soma(int a, int b)
 {
     return a+b;
@@ -18,6 +20,11 @@ int mult(int a, int b)
 float div(int a, int b)
 {
     return (float)a/b;
+}
+
+float raiz(float a)
+{
+    return sqrt(a);
 }
 
 int main()
