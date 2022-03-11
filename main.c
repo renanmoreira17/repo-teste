@@ -38,5 +38,6 @@ int main()
     int subres = sub(a, b);
     int multres = mult(a, b);
     int somares = soma(a, b);
+    float raizres = raiz(a);
     return 0;
 }
