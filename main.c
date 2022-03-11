@@ -30,5 +30,6 @@ int main()
     printf("%d\n%f\n", c, d);
     int subres = sub(a, b);
     int multres = mult(a, b);
+    int somares = soma(a, b);
     return 0;
 }
