@@ -29,5 +29,6 @@ int main()
     float d = div(a, b);
     printf("%d\n%f\n", c, d);
     int subres = sub(a, b);
+    int multres = mult(a, b);
     return 0;
 }
