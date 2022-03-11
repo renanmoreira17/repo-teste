@@ -7,6 +7,8 @@ int soma(int a, int b)
 
 int main()
 {
+    int a, b;
     printf("Hello World!\n");
+    scanf("%d %d", &a, &b);
     return 0;
 }
