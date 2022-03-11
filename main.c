@@ -15,5 +15,6 @@ int main()
     int a, b;
     printf("Hello World!\n");
     scanf("%d %d", &a, &b);
+    int c = mult(a, b);
     return 0;
 }
